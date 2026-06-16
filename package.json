@@ -1,0 +1,17 @@
+{
+  "name": "yoga-school-app",
+  "version": "1.0.0",
+  "description": "Aplicación para gestión de asistencia, reservas y pagos de un centro de yoga, meditación y coaching.",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "vercel": "^39.1.1"
+  }
+}
