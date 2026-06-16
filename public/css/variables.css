@@ -1,0 +1,19 @@
+:root {
+  --color-bg: #F7F4EF;
+  --color-surface: #FFFFFF;
+  --color-primary: #A8B8A0;
+  --color-primary-dark: #7F9277;
+  --color-secondary: #E9DED0;
+  --color-accent: #C7A27C;
+  --color-text: #3E3A36;
+  --color-muted: #8A8178;
+  --color-border: #E1D8CE;
+  --color-danger: #B86B6B;
+  --color-success: #7A9B76;
+
+  --radius-xl: 28px;
+  --radius-lg: 18px;
+  --shadow-soft: 0 24px 60px rgba(62, 58, 54, 0.10);
+
+  --font-main: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}

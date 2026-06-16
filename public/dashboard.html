@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel de escuela · ES3 con calma</title>
+  <link rel="stylesheet" href="/css/variables.css" />
+  <link rel="stylesheet" href="/css/base.css" />
+  <link rel="stylesheet" href="/css/layout.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <h2>ES3</h2>
+      <nav>
+        <a href="/dashboard" class="active">Dashboard</a>
+        <a href="#">Alumnos</a>
+        <a href="#">Clases</a>
+        <a href="#">Reservas</a>
+        <a href="#">Asistencia</a>
+        <a href="#">Pagos</a>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header class="page-header">
+        <div>
+          <p class="eyebrow">Gestión de escuela</p>
+          <h1>Dashboard</h1>
+        </div>
+      </header>
+
+      <section class="grid cards-grid">
+        <article class="metric-card">
+          <span>Alumnos activos</span>
+          <strong id="studentsCount">—</strong>
+        </article>
+
+        <article class="metric-card">
+          <span>Clases programadas</span>
+          <strong id="classesCount">—</strong>
+        </article>
+
+        <article class="metric-card">
+          <span>Conexión backend</span>
+          <strong id="backendStatus">—</strong>
+        </article>
+      </section>
+
+      <section class="panel">
+        <h2>Próximas clases</h2>
+        <div id="classesList" class="list">
+          Cargando clases...
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/dashboard.js"></script>
+</body>
+</html>
