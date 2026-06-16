@@ -1,22 +1,21 @@
 {
   "version": 2,
-  "public": true,
   "rewrites": [
     {
       "source": "/",
-      "destination": "/public/index.html"
+      "destination": "/index.html"
     },
     {
       "source": "/login",
-      "destination": "/public/login.html"
+      "destination": "/login.html"
     },
     {
       "source": "/dashboard",
-      "destination": "/public/dashboard.html"
+      "destination": "/dashboard.html"
     },
     {
       "source": "/student",
-      "destination": "/public/student.html"
+      "destination": "/student.html"
     }
   ]
 }
